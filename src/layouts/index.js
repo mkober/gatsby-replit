@@ -4,10 +4,12 @@ import PropTypes from 'prop-types'
 import Header from '../components/header'
 
 const Layout = ({ children }) => (
-  <div>
-    <Header/>
-    {children}
-  </div>
+  <section class="section">
+    <div class="container">
+      <Header/>
+      {children}
+    </div>
+  </section>
 )
 
 Layout.propTypes = {
